@@ -11,7 +11,7 @@ source:
   target_directory: src
 
 build:
-  number: 0
+  number: 1
   script:
     - cd src
     # build-tags.txt is a single comma-separated line of the build tags the

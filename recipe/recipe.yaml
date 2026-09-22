@@ -1,5 +1,5 @@
 context:
-  version: "0.6.0"
+  version: "0.7.0"
 
 package:
   name: tailcat
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tailscale/tailcat/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 14d0e1a80dd4836053dd3e2cd6bbb1ad40ecf72c181c3f92d319d325bf7f6e6f
+  sha256: 54a97d9046d0bf2afbf99987ff630fc425ee79272c6c7ccd645a49a076d3cecb
   target_directory: src
 
 build:
